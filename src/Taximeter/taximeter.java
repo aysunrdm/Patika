@@ -1,5 +1,6 @@
 package Taximeter;
 import java.util.Scanner;
+
 public class taximeter {
     public static void main(String[] args){
 
