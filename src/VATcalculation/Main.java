@@ -10,6 +10,8 @@ public class Main {
         System.out.println("Ücret tutarını giriniz: ");
         tutar = input.nextInt();
 
+        input.close();
+
         if (tutar > 0 && tutar <= 1000) {
             kdvOran = 0.18;
         } else if (tutar > 1000) {

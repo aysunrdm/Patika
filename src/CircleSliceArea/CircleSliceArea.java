@@ -15,6 +15,8 @@ Scanner input = new Scanner(System.in);
     r= input.nextInt();
     𝛼= input.nextInt();
 
+    input.close();
+
     sliceArea = (pi * (r*r) * 𝛼) / 360;
 
     System.out.println("Daire diliminin alanı: " + sliceArea);

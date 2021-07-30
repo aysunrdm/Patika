@@ -12,6 +12,8 @@ public class taximeter {
     System.out.print("Mesafeyi KM cinsinden giriniz: ");
     km = input.nextInt();
 
+    input.close();
+    
     total = (km + perKm);
     total += startPrice;
 

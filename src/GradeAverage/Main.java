@@ -31,6 +31,8 @@ class Main {
 
         int muzik = input.nextInt();
 
+        input.close();
+
         double ort = (mat + fizik + kimya + turkce + tarih + muzik) / 6;
 
         System.out.println("Not Ortalaması: " + ort);

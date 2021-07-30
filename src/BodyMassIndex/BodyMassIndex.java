@@ -15,6 +15,8 @@ public class BodyMassIndex {
     System.out.print("Lütfen kilonuzu giriniz :");
     weight = input.nextInt();
     
+    input.close();
+
     bodyMassIndex = weight / (height * height);
 
     System.out.println("Vücut Kitle İndeksiniz :" + bodyMassIndex);
