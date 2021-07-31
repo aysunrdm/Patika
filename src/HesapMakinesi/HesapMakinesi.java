@@ -21,6 +21,8 @@ public class HesapMakinesi {
 
         sc.close();
 
+        System.out.println("Seçiminiz :" + select);
+
         switch (select) {
             case 1:
 
