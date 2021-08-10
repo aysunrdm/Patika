@@ -1,8 +1,8 @@
-package HesapMakinesi;
+package Calculator;
 
 import java.util.Scanner;
 
-public class HesapMakinesi {
+public class Calculator {
 
     public static void main(String[] args) {
 
