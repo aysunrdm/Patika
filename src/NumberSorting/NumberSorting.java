@@ -22,7 +22,6 @@ public class NumberSorting {
         input.close();
 
         if ((a < b) && (a < c)) {
-
             if (b < c) {
                 System.out.println(" a < b < c");
             } else {
