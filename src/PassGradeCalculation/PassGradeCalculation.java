@@ -54,6 +54,8 @@ public class PassGradeCalculation {
             count++;
         }
 
+        input.close();
+        
         double average = (double) total / count;
 
         if(average < 55){
